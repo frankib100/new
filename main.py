@@ -20,7 +20,7 @@ import pandas as pd
 #import pandas as pd
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
-model=tf.keras.models.load_model("C://Users//Public//model5.h5")
+model=tf.keras.models.load_model("model5.h5")
 app=FastAPI()
 
 with open('intents (2).json') as intents:
