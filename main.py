@@ -1,5 +1,7 @@
+
 from tensorflow import keras
 import tensorflow as tf
+tf.config.set_visible_devices([], 'GPU')
 from keras.layers import LSTM, Input,Embedding,Dense,GlobalMaxPooling1D,Flatten
 from keras.preprocessing.text import Tokenizer
 import json
